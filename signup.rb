@@ -148,6 +148,5 @@ get '/welcome' do
 end
 
 get '/logout' do
-  puts request.env
   redirect '/signup'
 end
